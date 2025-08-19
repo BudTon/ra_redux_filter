@@ -36,15 +36,15 @@ export default function numberReducer(state = initialState, action) {
         ...state,
         userId: action.payload[0].id,
         userValue: action.payload[1].item,
-        userPrice: action.payload[2].price
+        userPrice: action.payload[2].price,
       };
 
     case CHANGE_DATA:
       state.value.map(item => {
         if (action.payload[0] === item[0].id) {
-          item[1].item = action.payload[1]
-          item[2].price = action.payload[2]
-        }
+          item[1].item = action.payload[1],
+            item[2].price = action.payload[2]
+        };
       });
       return {
         ...state,
@@ -69,8 +69,8 @@ export default function numberReducer(state = initialState, action) {
           ...state,
           filterValue: action.payload,
           filterValueData: state.value.filter(item => item[1].item.includes(action.payload)),
-        }
-      }
+        };
+      };
 
       return {
         ...state,

@@ -18,12 +18,12 @@ export const MainApp = () => {
 
   const submitHandler = (e) => {
     e.preventDefault();
-    dispatch(hiddenCancel(false))
+    dispatch(hiddenCancel(false));
 
     if (userId === undefined) {
       dispatch(newData([{ id: uuidv4() }, { item: userValue }, { price: userPrice }]));
     } else {
-      dispatch(changeData([userId, userValue, userPrice]))
+      dispatch(changeData([userId, userValue, userPrice]));
     }
     dispatch({
       type: SET_FILTER_VALUE,
@@ -32,8 +32,8 @@ export const MainApp = () => {
   }
 
   const cancelButton = () => {
-    dispatch(hiddenCancel(false))
-    dispatch(cancelBatton())
+    dispatch(hiddenCancel(false));
+    dispatch(cancelBatton());
   }
 
   const clearButton = () => {

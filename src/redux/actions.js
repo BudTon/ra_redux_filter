@@ -1,0 +1,23 @@
+export const SET_USER_VALUE = 'SET_USER_VALUE';
+export const SET_PRICE = 'SET_PRICE';
+export const DELETE_ITEM = 'DELETE_ITEM';
+export const TOGGLE_BOOLEAN = 'TOGGLE_BOOLEAN';
+export const NEW_DATA = 'NEW_DATA';
+export const UP_DATA = 'UP_DATA';
+export const CHANGE_DATA = 'CANCEL_DATA';
+export const CANCEL_BUTTON = 'CANCEL_BUTTON';
+export const SET_FILTER_VALUE = 'SET_FILTER_VALUE';
+export const CLEAR_FILTER_VALUE = 'CLEAR_FILTER_VALUE';
+
+export default {
+  SET_USER_VALUE,
+  SET_PRICE,
+  SET_FILTER_VALUE,
+  DELETE_ITEM,
+  TOGGLE_BOOLEAN,
+  NEW_DATA,
+  UP_DATA,
+  CHANGE_DATA,
+  CANCEL_BUTTON,
+  CLEAR_FILTER_VALUE
+};

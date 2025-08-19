@@ -1,7 +1,8 @@
 Фильтрация
 ===
 
-[GITHUB Pages](https://BudTon.github.io/ra_redux_filter/)
+[GITHUB Pages](https://BudTon.github.io/ra_redux_filter/)\n
+\n
 [![pages-build-deployment](https://github.com/BudTon/ra_redux_filter/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/BudTon/ra_redux_filter/actions/workflows/pages/pages-build-deployment)
 
 
